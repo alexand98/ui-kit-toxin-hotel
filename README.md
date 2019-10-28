@@ -12,4 +12,4 @@ To create UI kit I used:<br>
 
 
 <h2>Pages:</h2>
-Color&Type page - https://alexand98.github.io/ui-kit-toxin/colors-and-type.html<br>
+Colors&Type page - https://alexand98.github.io/ui-kit-toxin-hotel/dist/colors-and-type.html<br>
