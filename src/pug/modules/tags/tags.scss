@@ -1,0 +1,49 @@
+.tag__item {
+    margin-bottom: 30px;
+}
+
+.tag__name {
+    display: inline-flex;
+    width: 37px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    &--h1 {font-size: 24px;};
+    &--h2 {font-size: 19px;};
+    &--h3 {font-size: 12px;};
+    &--body {font-size: 14px;};
+}
+
+.tag__description {
+    display: inline-flex;
+    margin-left: 30px;
+    &--h1 {
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+    };
+    &--h2 { 
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 24px;
+    };
+    &--h3 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+    };
+    &--body {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+    };
+}

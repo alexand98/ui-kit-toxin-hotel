@@ -1,0 +1,55 @@
+// px to rem
+@function rem($pixels, $context: $mainFontSize) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+  @return $pixels / $context * 1rem;
+}
+
+@mixin size($width,$height: $width) {
+  width: $width;
+  height: $height;
+}
+
+@mixin placeholder {
+  ::-webkit-input-placeholder {@content}
+  :-moz-placeholder           {@content}
+  ::-moz-placeholder          {@content}
+  :-ms-input-placeholder      {@content}
+}
+
+@mixin h1 {
+ font-family: Quicksand;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 24px;
+ line-height: 30px;
+}
+
+@mixin h2 {
+ font-family: Quicksand;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 19px;
+ line-height: 24px;
+}
+
+@mixin h3 {
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 12px;
+ line-height: 15px;
+ text-transform: uppercase;
+}
+
+@mixin body {
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 24px;
+}

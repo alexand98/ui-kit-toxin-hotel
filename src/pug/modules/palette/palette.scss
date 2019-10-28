@@ -1,0 +1,26 @@
+.palette__item {
+    display: flex;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.palette__img {    
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    background-color: rgba(31, 32, 65, 1);
+    &--dark-shade-75 {background: rgba(31, 32, 65, 0.75);}
+    &--dark-shade-50 {background: rgba(31, 32, 65, 0.50);}
+    &--dark-shade-25 {background: rgba(31, 32, 65, 0.25);}
+    &--dark-shade-5 {background: rgba(31, 32, 65, 0.05);}
+    &--purple {background-color: #BC9CFF;}
+    &--green {background-color: #6FCF97;}
+}
+
+.palette__name {
+    margin-left: 40px;
+    padding-top: 8px;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 29px;
+}
