@@ -6,6 +6,8 @@ import './assets/scss/utils/vars.scss'
 import './assets/scss/main.scss'
 import './pug/pages/colors-and-type/colors-and-type.scss'
 import './pug/pages/headers-and-footers/headers-and-footers.scss'
+import './pug/pages/cards/cards.scss'
+import './pug/pages/form-elements/form-elements.scss'
 
 
 // CSS (example)

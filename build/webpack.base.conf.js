@@ -143,6 +143,16 @@ module.exports = {
       inject: true
     }),
     new HtmlWebpackPlugin({
+      template: `${PAGES_DIR}/cards/cards.pug`,
+      filename: './cards.html',
+      inject: true
+    }),
+    new HtmlWebpackPlugin({
+      template: `${PAGES_DIR}/form-elements/form-elements.pug`,
+      filename: './form-elements.html',
+      inject: true
+    }),
+    new HtmlWebpackPlugin({
       template: `${PAGES_DIR}/about.pug`,
       filename: './about.html',
       inject: true
