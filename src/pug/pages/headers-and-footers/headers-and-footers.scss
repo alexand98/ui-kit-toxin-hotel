@@ -1,0 +1,19 @@
+body.headers-and-footers {
+    background: #E5E5E5;
+}
+
+.page-nav-bar {
+    position: absolute;
+    left: 0px;
+    top: 150px;
+}
+
+.page-logged-nav-bar {
+    position: absolute;
+    left: 0px;
+    top: 260px;
+
+}
+
+@import "../../modules/nav-bar/nav-bar.scss";
+@import "../../modules/logged-nav-bar/logged-nav-bar.scss";
